@@ -11,6 +11,7 @@ names_2 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
 duplicates = set(names_1).intersection(names_2)
+# set removes duplicates and allow for intersection which only returns duplicate values of the set and list compared
 
 end_time = time.time()
 
